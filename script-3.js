@@ -17,7 +17,7 @@ const preloadImages = () => {
 const img = new Image()
 img.src = currentFrame(1);
 img.style = "object-fit:cover; width: 100%;"
-canvas.width=1500;
+canvas.width=1200;
 canvas.height=1200;
 img.onload=function(){
   context.drawImage(img, 0, 0);
